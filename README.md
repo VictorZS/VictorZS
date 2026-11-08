@@ -1,25 +1,47 @@
 # VictorZS
 
-把信息与研究中的真实问题，做成可验证、可复用的小产品。
+**产品经理 · AI 普惠与日常体验**
 
-Building small, verifiable tools for research and information workflows.
+Making AI accessible, useful, and dependable in everyday life.
 
-我关注信息提炼、研究方法和本地 AI 工作流。公开记录产品中的具体问题、实验结果，以及哪些证据改变了判断；用这些反馈继续改进工具。
+我致力于让 AI 改善生活中的小细节：少花一点时间整理信息，更轻松地理解一件事，让反复发生的小麻烦得到妥善处理。
 
-## 正在做 · Building
+我关注技术走进日常的过程——一个人能否看懂、顺利开始、负担得起，并在需要时再次使用。这里记录我的产品实践、研究问题，以及从真实反馈中形成的判断。
 
-**[Brief to Podcast · 简报—播客引擎](https://github.com/VictorZS/brief-to-podcast/)**
+## 我所理解的 AI 普惠
 
-将已经编辑好的结构化简报转成网页、逐字稿和经过校验的本地音频。保留事实与来源之间的关联，检查重要限定条件、覆盖边界和音频产出。
+- **更容易开始**：减少术语、配置和重复输入，让不同技术熟悉程度的人都能找到清楚的使用路径。
+- **更容易融入生活**：从通勤、早餐、阅读和日常安排等具体情境出发，减少操作与注意力负担。
+- **更值得持续使用**：同时考虑设备与费用、结果质量，以及出错后理解和修正的成本。
 
-- [运行虚构样例](https://github.com/VictorZS/brief-to-podcast/#运行虚构样例)
-- [开发与产品 Learning](https://github.com/VictorZS/brief-to-podcast/tree/main/docs/learnings)
-- [分享使用反馈](https://github.com/VictorZS/brief-to-podcast/issues/new/choose)
+这些是我选择问题和评价产品的标准，也需要在每个具体项目中逐步验证。
 
-## 我如何推进 · How I work
+## 当前实践
 
-从一个具体问题出发，做一个能运行的版本，观察使用中的障碍，再把有效的方法整理成可复用的代码、说明或检查清单。
+### [Brief to Podcast · 简报—播客引擎](https://github.com/VictorZS/brief-to-podcast/)
 
-代码与文档采用 AI 辅助开发。实际能力、验证结果和已知限制，以各仓库的说明及运行记录为准。
+**探索的问题：如何让一份值得读的简报，也能在通勤或早餐时方便地听完？**
 
-Interested in evidence-linked briefs, local tools, or reusable research methods? Try the fictional example and share the step where your workflow becomes difficult. Feedback about the problem matters as much as code contributions.
+当前开源原型可将已编辑好的结构化简报转成网页、逐字稿和经过校验的本地音频，并保留事实与来源之间的关联。文本模式支持 macOS / Linux，语音合成目前需要 macOS。
+
+下一步研究聚焦首次使用：准备输入要花多少力气，哪些步骤需要帮助，怎样让较少技术经验的人也能完成自己的任务。目前仍需准备结构化输入；普通文本入口与更简单的交互方式属于待验证方向。
+
+[试用样例](https://github.com/VictorZS/brief-to-podcast/#运行虚构样例) · [产品 Learning](https://github.com/VictorZS/brief-to-podcast/tree/main/docs/learnings) · [反馈使用体验](https://github.com/VictorZS/brief-to-podcast/issues/new?template=usage_feedback.yml)
+
+## 持续研究
+
+| 方向 | 我希望弄清的问题 |
+|---|---|
+| 信息理解与收听 | 怎样减少阅读负担，同时保留重要的数字、条件与上下文？ |
+| 生活中的重复小事 | 哪些整理、提醒与准备工作值得交给 AI，怎样减少确认和返工？ |
+| 低门槛的使用体验 | 怎样降低首次上手、持续使用和纠错的成本，让更多人能够受益？ |
+
+研究从一个具体情境、一个可运行原型和一次可观察的尝试开始。公开记录有效的改进、没有成立的假设，以及下一步会如何验证。
+
+[查看研究计划与验证方法 →](RESEARCH.md)
+
+## 一起发现值得改善的小事
+
+如果某件日常小事总让你重复操作、反复确认，或想用 AI 却不知道怎样开始，欢迎通过[使用反馈](https://github.com/VictorZS/brief-to-podcast/issues/new?template=usage_feedback.yml)描述它发生的情境、当前做法和卡住的步骤。
+
+你可以只分享流程与感受，无需提供私人材料。一个具体的困难、一条反例，或一处更清楚的说明，都能成为下一次改进的起点。
