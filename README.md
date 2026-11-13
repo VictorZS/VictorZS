@@ -24,9 +24,11 @@ Making AI accessible, useful, and dependable in everyday life.
 
 当前开源原型可将已编辑好的结构化简报转成网页、逐字稿和经过校验的本地音频，并保留事实与来源之间的关联。文本模式支持 macOS / Linux，语音合成目前需要 macOS。
 
-下一步研究聚焦首次使用：准备输入要花多少力气，哪些步骤需要帮助，怎样让较少技术经验的人也能完成自己的任务。目前仍需准备结构化输入；普通文本入口与更简单的交互方式属于待验证方向。
+已补充[中文准备与纠错指南](https://github.com/VictorZS/brief-to-podcast/blob/main/docs/getting-started.zh.md)，并完成代理走查。下一步研究聚焦真实使用：准备输入要花多少力气，哪些步骤需要帮助，怎样让较少技术经验的人也能完成自己的任务。目前仍需准备结构化输入；普通文本入口与更简单的交互方式属于待验证方向。
 
 [试用样例](https://github.com/VictorZS/brief-to-podcast/#运行虚构样例) · [产品 Learning](https://github.com/VictorZS/brief-to-podcast/tree/main/docs/learnings) · [反馈使用体验](https://github.com/VictorZS/brief-to-podcast/issues/new?template=usage_feedback.yml)
+
+最近记录：[把报错变成下一步](https://github.com/VictorZS/brief-to-podcast/blob/main/docs/learnings/2026-11-13-recoverable-onboarding.md)——记录一条可执行的修复路径，以及它距离真实用户验证还有什么缺口。
 
 ## 持续研究
 
